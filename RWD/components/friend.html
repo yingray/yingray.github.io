@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>friend</title>
+    <style>
+    .friend {
+    	padding: 10px;
+    	box-sizing: border-box;
+        border: solid 1px #000;
+        float: left;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+    }
+    
+    .friend div {
+        border: solid 1px #ccc;
+    }
+    
+    .profile {
+        /*background: #1d8;*/
+        background-image: url("../images/snoopy1.png");
+        background-size: cover;
+        width: 100px;
+        height: 100px;
+        float: left;
+        border-radius: 30px;
+    }
+    
+    .content {
+    	color: steelblue;
+		font-weight: bold;
+        padding: 10px;
+        width: 200px;
+        height: 100px;
+        float: left;
+        box-sizing: border-box;
+    }
+    
+    .btn {
+        background: #9d8;
+        width: 100px;
+        padding: 10px;
+        /*height: 50px;*/
+        text-align: center;
+        vertical-align: middle;
+        float: left;
+    }
+    
+    </style>
+</head>
+
+<body>
+    <div class="friend">
+        <div class="profile"></div>
+        <div class="content">
+            <p class="name">name</p>
+            <p class="number">number</p>
+        </div>
+        <div class="btn">+ friend</div>
+    </div>
+</body>
+
+</html>
