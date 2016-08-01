@@ -6,23 +6,25 @@
     <style>
     .container {
         border: solid 1px #000;
-        background: #ccc;
+        background: #fed;
         max-width: 1000px;
         margin: 0 auto;
-        padding: 10px;
+        padding: 10px 0px 0px 0px;
         display: flex;
         flex-wrap: wrap;
         align-content: center;
         justify-content: center;
         align-items: center;
+        box-sizing: border-box;
     }
     .friend {
+        border-radius: 10px;
         background: #fff;
-        border: solid 1px #000;
+        /*border: solid 1px #000;*/
         padding: 10px;
         margin-left: 10px;
         margin-bottom: 10px;
-        cursor: pointer;
+        
         display: inline-flex;
         justify-content: space-between;
         align-items: center;
@@ -30,7 +32,9 @@
     }
     
     .friend:hover {
-        background: #ecf;
+        background: #ffe;
+        border: solid 1px orange;
+        box-sizing: border-box;
     }
     
     .profile {
@@ -47,19 +51,22 @@
         display: inline-flex;
         height: 100px;
         box-sizing: border-box;
-        border: solid 1px #000;
+        /*border: solid 1px #000;*/
         flex-direction: column;
         justify-content: center;
         padding: 10px;
     }
     
     .content p {
-        border: solid 1px #ccc;
+        /*border: solid 1px #ccc;*/
         margin: 0;
+    }
+    .name {
+        color: orange;
     }
     
     .btn {
-        border: solid 1px #000;
+        /*border: solid 1px #000;*/
         padding: 10px 10px;
         height: 100px;
         box-sizing: border-box;
@@ -69,10 +76,15 @@
     }
     
     .add {
-        height: 20px;
-        padding: 2px;
+        background: #eee;
+        height: 30px;
+        padding: 5px 10px;
         box-sizing: border-box;
-        border: solid 1px #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        /*border: solid 1px #000;*/
     }
     </style>
 </head>
