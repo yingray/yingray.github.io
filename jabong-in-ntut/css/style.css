@@ -1,0 +1,25 @@
+.card {
+    height: 100px;
+    background: #ccc;
+    border: solid 1px #fff;
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+}
+
+.card:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
+.tab-pane {
+	height: 300px;
+	border: solid 1px #ccc;
+	border-top: 0;
+}
+
+.footer {
+	background: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
