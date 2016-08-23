@@ -1,3 +1,15 @@
+body {
+	color: #888;
+}
+
+.row {
+	margin: 0px 10px 0px 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+
 .card {
     height: 100px;
     background: #ccc;
@@ -12,14 +24,45 @@
 }
 
 .tab-pane {
-	height: 300px;
-	border: solid 1px #ccc;
-	border-top: 0;
+    height: 300px;
+    border: solid 1px #ddd;
+    border-top: 0;
 }
 
 .footer {
-	background: #333;
-	color: #fff;
-	padding: 10px;
-	text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.icon-jabong {
+    background-image: url(../images/jb.svg);
+    background-color: orange;
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-image {
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+._sheet {
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+._image01 {
+    background-image: url(../images/ntut01.png);
+}
+
+._image02 {
+    background-image: url(../images/ntut02.png);
 }
