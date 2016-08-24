@@ -1,5 +1,5 @@
 body {
-    color: #888;
+    color: #666;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -31,6 +31,7 @@ dl {
     height: 200px;
     background: rgba(0, 0, 0, 0.4);
     background-size: cover;
+    background-position: center;
     border: solid 1px #fff;
     box-sizing: border-box;
     transition: all .3s ease-in-out;
@@ -42,31 +43,31 @@ dl {
 }
 
 ._card01 {
-    background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/1.jpg);
+    background-image: url(http://nearsoft.com/admin/wp-content/uploads/2015/11/joinus-java.png);
 }
 
 ._card02 {
-    background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/2.jpg);
+    background-image: url(http://asphostportal.com/img/icon-sql.png);
 }
 
 ._card03 {
-    background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/3.jpg);
+    background-image: url(https://s3-eu-west-1.amazonaws.com/course.oc-static.com/courses/2479876/14570828119302_illu-cours_html5-css3.png);
 }
 
 ._card04 {
-    background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/4.jpg);
+    background-image: url(http://www.myrepublica.com/uploads/media/android.png);
 }
 
 ._card05 {
-    background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/5.jpg);
+    background-image: url(http://emberify.com/blog/wp-content/uploads/2014/11/emberify_iot_1.jpg);
 }
 
 ._card06 {
-    background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/6.jpg);
+    background-image: url(http://manageyourmedia.eu/wp-content/uploads/2014/10/software-development.jpg);
 }
 
 .tab-pane {
-    height: 100px;
+    /*height: 100px;*/
     border: solid 1px #ddd;
     border-top: 0;
     padding: 10px;
@@ -74,7 +75,7 @@ dl {
 }
 
 .footer {
-    background: #333;
+    background: #fdccb8;
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -112,6 +113,12 @@ dl {
 }
 
 .info {
-	height: 150px;
+
+	height: 300px;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
 }
