@@ -1,26 +1,60 @@
 body {
 	color: #888;
+	font-family: 'Montserrat', sans-serif;
 }
 
-.row {
-	margin: 0px 10px 0px 10px;
-}
+
 
 h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 }
 
+.link-01 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 .card {
-    height: 100px;
-    background: #ccc;
+    height: 200px;
+    background: rgba(0,0,0,0.4);
+    background-size: cover;
     border: solid 1px #fff;
     box-sizing: border-box;
     transition: all .3s ease-in-out;
 }
 
 .card:hover {
-    background: #eee;
+    opacity: 0.5;
     cursor: pointer;
+}
+
+._card01 {
+	background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/1.jpg);
+}
+
+._card02 {
+	background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/2.jpg);
+}
+
+._card03 {
+	background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/3.jpg);
+}
+
+._card04 {
+	background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/4.jpg);
+}
+
+._card05 {
+	background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/5.jpg);
+}
+
+._card06 {
+	background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/6.jpg);
+}
+
+.information {
+	background: steelblue;
+	color: white;
 }
 
 .tab-pane {
