@@ -1,22 +1,35 @@
 body {
-	color: #888;
-	font-family: 'Montserrat', sans-serif;
+    color: #888;
+    font-family: 'Montserrat', sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
 
-
-h1, h2, h3, h4, h5, h6 {
-	text-align: center;
+dl {
+	margin-top: 20px;
+	text-align: justify;
 }
 
 .link-01 {
-	padding-top: 10px;
-	padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa {
+    text-align: center;
+    display: block;
 }
 
 .card {
     height: 200px;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0, 0, 0, 0.4);
     background-size: cover;
     border: solid 1px #fff;
     box-sizing: border-box;
@@ -29,38 +42,35 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ._card01 {
-	background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/1.jpg);
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/1.jpg);
 }
 
 ._card02 {
-	background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/2.jpg);
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/2.jpg);
 }
 
 ._card03 {
-	background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/3.jpg);
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/3.jpg);
 }
 
 ._card04 {
-	background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/4.jpg);
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/4.jpg);
 }
 
 ._card05 {
-	background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/5.jpg);
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/5.jpg);
 }
 
 ._card06 {
-	background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/6.jpg);
-}
-
-.information {
-	background: steelblue;
-	color: white;
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/6.jpg);
 }
 
 .tab-pane {
-    height: 300px;
+    height: 100px;
     border: solid 1px #ddd;
     border-top: 0;
+    padding: 10px;
+    text-align: justify;
 }
 
 .footer {
@@ -87,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ._sheet {
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.2);
     position: absolute;
     top: 0;
     left: 0;
@@ -99,4 +109,9 @@ h1, h2, h3, h4, h5, h6 {
 
 ._image02 {
     background-image: url(../images/ntut02.png);
+}
+
+.info {
+	height: 150px;
+	text-align: center;
 }
