@@ -122,8 +122,25 @@ dl {
     align-content: space-around;
 }
 
+.info span {
+    color: #ff9933;
+}
+
 .modal-content {
 	padding: 20px;
+}
+
+.box {
+    border: solid 1px #ccc;
+    box-sizing: border-box;
+}
+
+._card07 {
+    background-image: url(http://www.innovativeconferences.com/_assets/img/hp-conference-participants.jpg);
+}
+
+._card08 {
+    background-image: url(https://www.theidm.com/TheIDM/files/25/258e4451-1168-47ff-968b-fd1a5bdaa4ab.png);
 }
 
 @media only screen and (max-width: 768px) {
