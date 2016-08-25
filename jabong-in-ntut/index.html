@@ -210,7 +210,7 @@
                         <div class="caption">
                             <h3>說明會報名</h3>
                             <p>說明會報名說明會報名說明會報名說明會報名說明會報名說明會報名說明會報名說明會報名說明會報名說明會報名</p>
-                            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                            <p><a href="#" class="btn btn-primary" role="button" data-toggle="modal" data-target=".modal-form1">Button</a></p>
                         </div>
                     </div>
                 </div>
@@ -249,10 +249,10 @@
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs" role="tablist">
                     <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">條件</a></li>
-                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">就業方向</a></li>
-                    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">就業輔導</a></li>
-                    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">求才評估</a></li>
-                    <li role="presentation"><a href="#tab5" aria-controls="tab5" role="tab" data-toggle="tab">APP發展</a></li>
+                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">方向</a></li>
+                    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">輔導</a></li>
+                    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">評估</a></li>
+                    <li role="presentation"><a href="#tab5" aria-controls="tab5" role="tab" data-toggle="tab">發展</a></li>
                 </ul>
                 <!-- Tab panes -->
                 <div class="tab-content">
@@ -544,7 +544,63 @@
             </div>
         </div>
     </div>
+    <div class="modal fade modal-form1" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content">
+                <form>
+                    <fieldset style="border: 1px solid #ebebeb;padding: 16px;">
+                        <h3>報名說明會</h3>
+                        <div class="form-group">
+                            <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+                            <div class="input-group">
+                                <div class="input-group-addon">
+                                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                                </div>
+                                <input type="text" class="form-control" id="exampleInputAmount" placeholder="輸入您的姓名">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+                            <div class="input-group">
+                                <div class="input-group-addon">
+                                    <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                                </div>
+                                <input type="text" class="form-control" id="exampleInputAmount" placeholder="輸入您的電子信箱">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+                            <div class="input-group">
+                                <div class="input-group-addon">
+                                    <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+                                </div>
+                                <input type="text" class="form-control" id="exampleInputAmount" placeholder="輸入您的手機號碼">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="radio-inline">
+                                <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 2016/8/10
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2016/8/17
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 2016/8/24
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <div class="g-recaptcha" data-sitekey="6LfzeSgTAAAAANnbSno0zyj3EfgeDxvM8AkEEHVj"></div>
+                        </div>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- MODAL -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/carousel.js"></script>
     <script src="js/collapse.js"></script>
