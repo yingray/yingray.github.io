@@ -13,8 +13,8 @@ h6 {
 }
 
 dl {
-	margin-top: 20px;
-	text-align: justify;
+    margin-top: 20px;
+    text-align: justify;
 }
 
 .link-01 {
@@ -113,12 +113,27 @@ dl {
 }
 
 .info {
+    height: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
 
-	height: 300px;
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	align-content: space-around;
+.modal-content {
+	padding: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .media-middle {
+        display: block;
+    }
+    .media-object {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        opacity: 0.75;
+    }
 }
