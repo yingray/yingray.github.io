@@ -1,3 +1,4 @@
+/*// global*/
 body {
     color: #666;
     font-family: 'Montserrat', sans-serif;
@@ -17,14 +18,34 @@ dl {
     text-align: justify;
 }
 
-.link-01 {
-    padding-top: 10px;
-    padding-bottom: 10px;
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .fa {
     text-align: center;
     display: block;
+}
+
+#poster {
+    background: #fff5ef;
+}
+
+.poster_child {
+    height: 250px;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
+
+.poster_child span {
+    color: #ff9933;
 }
 
 .card {
@@ -35,6 +56,17 @@ dl {
     border: solid 1px #fff;
     box-sizing: border-box;
     transition: all .3s ease-in-out;
+}
+
+.about_image {
+    height: 300px;
+    background: rgba(0, 0, 0, 0.4);
+    background-size: cover;
+    background-position: center;
+    border: solid 5px #fff;
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+    background-image: url(../images/about.jpg);
 }
 
 .card:hover {
@@ -74,13 +106,6 @@ dl {
     text-align: justify;
 }
 
-.footer {
-    background: #fdccb8;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-}
-
 .icon-jabong {
     background-image: url(../images/jb.svg);
     background-color: orange;
@@ -112,22 +137,8 @@ dl {
     background-image: url(../images/ntut02.png);
 }
 
-.info {
-    height: 250px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: space-around;
-}
-
-.info span {
-    color: #ff9933;
-}
-
 .modal-content {
-	padding: 20px;
+    padding: 20px;
 }
 
 .box {
@@ -142,32 +153,26 @@ dl {
 ._card08 {
     background-image: url(https://www.theidm.com/TheIDM/files/25/258e4451-1168-47ff-968b-fd1a5bdaa4ab.png);
 }
-.filter {
-  position: relative;
-  -webkit-filter: contrast(90%) sepia(20%);
-  filter: contrast(90%) sepia(20%);
+
+.footer {
+    background: #aaa;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
 }
-.filter::before {
-  content: "";
-  display: block;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  position: absolute;
-  pointer-events: none;
-  mix-blend-mode: overlay;
-  background: -webkit-radial-gradient(50% 50%, circle closest-corner, rgba(208, 186, 142, 1) 20, rgba(29, 2, 16, 0.2));
-  background: radial-gradient(50% 50%, circle closest-corner, rgba(208, 186, 142, 1) 20, rgba(29, 2, 16, 0.2));
+
+#qa {
+    background: #ffeff1;
 }
-@media only screen and (max-width: 768px) {
-    .media-middle {
-        display: block;
-    }
-    .media-object {
-        display: block;
-        margin: 0 auto;
-        margin-bottom: 20px;
-        opacity: 0.75;
-    }
-}
+
+/*// @media only screen and (max-width: 768px) {*/
+/*//     .media-middle {*/
+/*//         display: block;*/
+/*//     }*/
+/*//     .media-object {*/
+/*//         display: block;*/
+/*//         margin: 0 auto;*/
+/*//         margin-bottom: 20px;*/
+/*//         opacity: 0.75;*/
+/*//     }*/
+/*// }*/
