@@ -142,7 +142,24 @@ dl {
 ._card08 {
     background-image: url(https://www.theidm.com/TheIDM/files/25/258e4451-1168-47ff-968b-fd1a5bdaa4ab.png);
 }
-
+.filter {
+  position: relative;
+  -webkit-filter: contrast(90%) sepia(20%);
+  filter: contrast(90%) sepia(20%);
+}
+.filter::before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none;
+  mix-blend-mode: overlay;
+  background: -webkit-radial-gradient(50% 50%, circle closest-corner, rgba(208, 186, 142, 1) 20, rgba(29, 2, 16, 0.2));
+  background: radial-gradient(50% 50%, circle closest-corner, rgba(208, 186, 142, 1) 20, rgba(29, 2, 16, 0.2));
+}
 @media only screen and (max-width: 768px) {
     .media-middle {
         display: block;
