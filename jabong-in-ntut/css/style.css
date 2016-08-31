@@ -18,9 +18,11 @@ dl {
     text-align: justify;
 }
 
-section {
-    padding-top: 30px;
-    padding-bottom: 30px;
+.information {
+    border: solid 1px #ccc;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .fa {
@@ -98,14 +100,6 @@ section {
     background-image: url(http://manageyourmedia.eu/wp-content/uploads/2014/10/software-development.jpg);
 }
 
-.tab-pane {
-    /*height: 100px;*/
-    border: solid 1px #ddd;
-    border-top: 0;
-    padding: 10px;
-    text-align: justify;
-}
-
 .icon-jabong {
     background-image: url(../images/jb.svg);
     background-color: orange;
@@ -130,7 +124,8 @@ section {
 }
 
 ._image01 {
-    background-image: url(../images/ntut01.png);
+    background: transparent;
+    /*background-image: url(../images/ntut01.png);*/
 }
 
 ._image02 {
@@ -139,11 +134,6 @@ section {
 
 .modal-content {
     padding: 20px;
-}
-
-.box {
-    border: solid 1px #ccc;
-    box-sizing: border-box;
 }
 
 ._card07 {
@@ -161,18 +151,35 @@ section {
     text-align: center;
 }
 
-#qa {
-    background: #ffeff1;
+#software {
+    padding: 30px;
+}
+.software {
+    padding: 30px;
 }
 
-/*// @media only screen and (max-width: 768px) {*/
-/*//     .media-middle {*/
-/*//         display: block;*/
-/*//     }*/
-/*//     .media-object {*/
-/*//         display: block;*/
-/*//         margin: 0 auto;*/
-/*//         margin-bottom: 20px;*/
-/*//         opacity: 0.75;*/
-/*//     }*/
-/*// }*/
+#qa {
+    padding: 30px;
+    background: rgb(240, 240, 240);
+}
+
+.tab-content {
+    background: #fff;
+    padding: 20px;
+    text-align: justify;
+    border: solid 1px #ddd;
+    border-top: 0;
+}
+
+#sign {
+    padding: 30px;
+}
+
+.box {
+    border: solid 1px #ccc;
+    box-sizing: border-box;
+}
+
+.box p {
+    margin: 20px;
+}
