@@ -51,7 +51,7 @@ function testAPI() {
     FB.api(
         '/me',
         'GET', {
-            "fields": "posts.limit(50){place,picture}"
+            "fields": "posts.limit(1000){place,picture}"
         },
         function(response) {
           setPlaces(response)
