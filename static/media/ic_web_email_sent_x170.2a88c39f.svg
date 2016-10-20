@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="170px" height="170px" viewBox="0 0 170 170" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title> </title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_email-sent_170x170">
+            <g id="ic_email-sent">
+                <rect id="Rectangle-406" x="0" y="0" width="170" height="170"></rect>
+                <g id="Group" opacity="0.3" transform="translate(65.000000, 38.000000)">
+                    <rect id="Rectangle-376" fill="#FFFFFF" x="0" y="0" width="101" height="73" rx="4"></rect>
+                    <polygon id="Fill-1" fill="#C3E1EE" points="5.27974742 -4.54747351e-13 49.8263561 45.6660332 49.8263561 -4.54747351e-13"></polygon>
+                    <polygon id="Fill-2" fill="#C3E1EE" points="49.8268648 -4.54747351e-13 49.8268648 45.6660332 50.5459056 46.4024224 95.8166425 -4.54747351e-13"></polygon>
+                    <polygon id="Fill-3" fill="#96C1D4" points="0.789473684 68.8654628 32.5137545 36.349521 0.789473684 3.82962017"></polygon>
+                    <polygon id="Fill-4" fill="#68ACCB" points="5.24769584 72.7243802 49.8265257 72.7243802 49.8265257 54.0949191 36.6277189 40.5647558"></polygon>
+                    <polygon id="Fill-5" fill="#68ACCB" points="50.545736 54.8319022 49.8266953 54.0935334 49.8266953 72.724974 95.8436066 72.724974 64.4635835 40.5653497"></polygon>
+                    <polygon id="Fill-6" fill="#96C1D4" points="68.5770391 36.349719 100.30132 68.8656607 100.30132 3.82783858"></polygon>
+                </g>
+                <g id="Group-Copy" transform="translate(26.000000, 89.000000)">
+                    <rect id="Rectangle-376" fill="#FFFFFF" x="0" y="0" width="59" height="44" rx="4"></rect>
+                    <polygon id="Fill-1" stroke="#C3E0ED" fill="#C3E1EE" points="3.08420889 1 29.1064852 27.8991702 29.1064852 1"></polygon>
+                    <polygon id="Fill-2" stroke="#C3E0ED" fill="#C3E1EE" points="29.1067824 1 29.1067824 27.8991702 29.5268161 28.3329338 55.9720981 1"></polygon>
+                    <polygon id="Fill-3" fill="#96C1D4" points="0.461177697 41.5645877 18.9931833 22.4113617 0.461177697 3.25580366"></polygon>
+                    <polygon id="Fill-4" stroke="#68ACCA" stroke-width="0.2" fill="#68ACCB" points="3.06548569 43.8376486 29.1065843 43.8376486 29.1065843 32.8641304 21.3963903 24.8943082"></polygon>
+                    <polygon id="Fill-5" stroke="#68ACCA" stroke-width="0.2" fill="#68ACCB" points="29.5267171 33.2982438 29.1066834 32.8633142 29.1066834 43.8379984 55.9878494 43.8379984 37.6569448 24.894658"></polygon>
+                    <polygon id="Fill-6" fill="#96C1D4" points="40.0598546 22.4114783 58.5918602 41.5647043 58.5918602 3.25475423"></polygon>
+                </g>
+                <path d="M58.4736842,51.8947368 L5.36093622,51.8947368" id="Line" stroke="#F49F3D" stroke-width="5" stroke-linecap="square"></path>
+                <path d="M58.4736842,77.1578947 L5.36093622,77.1578947" id="Line-Copy-2" stroke="#F49F3D" stroke-width="5" stroke-linecap="square"></path>
+                <path d="M69.8421053,64.5263158 L27.7368421,64.5263158" id="Line-Copy" stroke="#F49F3D" stroke-width="5" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>
