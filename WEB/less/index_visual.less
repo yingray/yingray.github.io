@@ -14,7 +14,8 @@
 
 /*滿版俯瞰圖*/
 	.anibg{
-		background: url(../images/school_overall.jpg) no-repeat 50% 0;
+		background: black;
+		// background: url(../images/school_overall.jpg) no-repeat 50% 0;
 		background-size: cover;
 		width: 100%;
 		height: 100%;
@@ -22,7 +23,7 @@
 		position: fixed;
 
 		perspective-origin: 50% 250px;
-		perspective: 1000px; 
+		perspective: 1000px;
 
 		z-index: -1;
 
@@ -46,43 +47,43 @@
 	}
 
 	/*控制整個頁面有下拉的感覺*/
-	#headani:checked ~ .wrap { 
+	#headani:checked ~ .wrap {
      	top:100%;
-     	
+
      	position: fixed;
      	transition: 2s ;
      	/*設定fixed可以讓頁面下拉之後其他東西消失，滾輪進而消失*/
 	}
 
-	#headani ~ .wrap { 
+	#headani ~ .wrap {
      	top:0;
-     	
+
      	position: absolute;
      	transition:3s;
      	/*設定讓頁面滑回去*/
 	}
 
 	/*控制icon欄位一起下拉*/
-	#headani:checked ~ .wrap header .logo_top { 
+	#headani:checked ~ .wrap header .logo_top {
      	top:100%;
-     	
+
      	transition: 2s ;
 	}
 
-	#headani ~ .wrap header .logo_top { 
+	#headani ~ .wrap header .logo_top {
  	top:0;
- 	
+
  	transition: 3s ;
 	}
 
-	
+
 
 
 /*=============================================================================================*/
 /*中間logo animation*/
 
 .logoup{
-		position: absolute; 
+		position: absolute;
 		margin:auto;
 		top:0;
 		right: 0;
@@ -102,10 +103,10 @@
 
 
 /*進首頁感應區ENTER，置中*/
-	.headanigo{ 
+	.headanigo{
 			display: inline-block;
 			position: absolute;
-			
+
 			margin:auto;
 			right: 0;
 			left: 0;
@@ -131,7 +132,7 @@
 
 		width: 100%;
 		height: 100%;
-		
+
 		background-color: rgba(246,210,87,0);
 		color: transparent;
 
@@ -140,7 +141,7 @@
 
 	.headanigo:hover:before{
 		content: 'ENTER';
-		
+
 		background-color: rgba(246,210,87,.5);
 		color: #888;
 	}
@@ -155,15 +156,15 @@
 
 		border-style: solid;
 		border-color: rgba(255,255,255,.8) transparent ;
-		border-width: 25px 30px 0; 
+		border-width: 25px 30px 0;
 
 		width: 0;
 		height: 0;
-		
+
 		transition: 1s;
 		transform: scale(0);
 	}
-	
+
 	.headanigo:hover:after{
 		content: '';
 		border-color: rgba(209,68,118,1) transparent ;
@@ -182,7 +183,7 @@
 
 
 /*****含水層和阻水層的共同設定*****/
-.ft{ 
+.ft{
 	position: absolute;
 
 	margin:auto;
@@ -207,7 +208,7 @@
 			  0%{transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg) translateZ(250px);}
 			100%{transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) ;}
 		}
-			
+
 		/*g2內部*/
 			.g2front{
 					width: 500px;
@@ -267,7 +268,7 @@
 			 50%{transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) translateZ(100px);}
 			100%{transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) ;}
 		}
-			
+
 		/*F2內部*/
 			.f2front{
 					width: 500px;
@@ -317,7 +318,7 @@
 		transform-style: preserve-3d;
 		transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) ;
 		}
-		
+
 		#headani:checked ~ .anibg .t2 {
 			animation: t2 1s 3s linear 1 backwards ;
 		}
@@ -326,7 +327,7 @@
 			  0%{transform: rotateX(0deg) rotateY(-180deg) rotateZ(0deg)  translateZ(250px) translateX(750px);}
 			100%{transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) ;}
 		}
-			
+
 		/*T2內部*/
 			.t2front{
 					width: 500px;
@@ -376,7 +377,7 @@
 		transform-style: preserve-3d;
 		transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) ;
 		}
-		
+
 		#headani:checked ~ .anibg .f1 {
 			animation: f1 1s 2.75s ease 1 backwards ;
 		}
@@ -385,7 +386,7 @@
 			  0%{transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg)  translateZ(-500px);}
 			100%{transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) ;}
 		}
-			
+
 		/*f1內部*/
 			.f1front{
 					width: 500px;
@@ -444,7 +445,7 @@
 			  0%{transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg)  translateZ(250px) translateX(-750px);}
 			100%{transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) ;}
 		}
-			
+
 		/*t1內部*/
 			.t1front{
 					width: 500px;
@@ -503,7 +504,7 @@
 			  0%{transform: rotateX(0deg) rotateY(-180deg) rotateZ(0deg) translateZ(250px);}
 			100%{transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) ;}
 		}
-			
+
 		/*g1內部*/
 			.g1front{
 					width: 500px;
@@ -619,7 +620,7 @@
 		}
 
 		#headani:checked ~ .anibg .flow1{
-		animation: flow1 4s 5.5s ease backwards; 
+		animation: flow1 4s 5.5s ease backwards;
 		}
 
 		@keyframes flow1{
@@ -637,7 +638,7 @@
 		background:  url(../images/LOGOani/LOGOani_m2.svg) no-repeat 50% 50%;
 		min-height: 400px;
 		transform: scaleY(1);}
-		
+
 		#headani:checked ~ .anibg .mm1{
 			animation: mm 1s 9s 1 backwards ;
 		}
@@ -662,7 +663,7 @@
 		}
 
 
-	.mm4{	
+	.mm4{
 		background:  url(../images/LOGOani/LOGOani_m5.svg) no-repeat 50% 50%;
 		min-height: 400px;
 		transform: scaleY(1);}
@@ -671,7 +672,7 @@
 			animation: mm 1s 9.75s 1 backwards ;
 		}
 
-		
+
 	.mm5{
 		background:  url(../images/LOGOani/LOGOani_m6.svg) no-repeat 50% 50%;
 		min-height: 400px;
@@ -681,7 +682,7 @@
 			animation: mm 1s 10s 1 backwards ;
 		}
 
-	
+
 	.mm6{
 		background:  url(../images/LOGOani/LOGOani_m7.svg) no-repeat 50% 50%;
 		min-height: 400px;
@@ -691,8 +692,8 @@
 			animation: mm 1s 10s 1 backwards ;
 		}
 
-	
-	.mm7{	
+
+	.mm7{
 		background:  url(../images/LOGOani/LOGOani_m8.svg) no-repeat 50% 50%;
 		min-height: 400px;
 		transform: scaleY(1);}
@@ -781,7 +782,7 @@
 /*中線展開*/
 	.miao {
 		  float: left;
-		  position: absolute; 
+		  position: absolute;
 		  margin:auto;
 		  top:0;
 		  right: 0;
@@ -799,7 +800,7 @@
 			        background-color: #ccc;
 			        border-radius: 50%;
 			    }
-			100%{ 
+			100%{
 				      width: 80%;
 				      height: 5px;
 				      border-radius: 50%;
@@ -850,7 +851,7 @@
 
 
 	/*T2阻水層*/
-	
+
 		/*T2內部*/
 			.t2front{
 					width: 90%;
@@ -862,7 +863,7 @@
 
 
 	/*F1含水層*/
-			
+
 		/*f1內部*/
 			.f1front{
 					width: 90%;
@@ -872,7 +873,7 @@
 				}
 
 	/*T1阻水層*/
-		
+
 		/*t1內部*/
 			.t1front{
 					width: 90%;
@@ -885,7 +886,7 @@
 
 
 	/*G1地層*/
-	
+
 		/*g1內部*/
 			.g1front{
 					width: 90%;
@@ -907,7 +908,7 @@
 			.cloud1, .cloud2, .cloud3{
 				width: 90%;
 			}
-			
+
 		/*雨水水流*/
 			.flow1{
 				display: none;
@@ -998,7 +999,7 @@
 				        background-color: #ccc;
 				        border-radius: 50%;
 				    }
-				100%{ 
+				100%{
 					      width: 90%;
 					      height: 5px;
 					      border-radius: 50%;
@@ -1009,13 +1010,3 @@
 
 }
 /*手機版本結束*/
-
-
-
-
-
-
-
-
-
-	
