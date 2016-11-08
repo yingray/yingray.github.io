@@ -1,0 +1,42 @@
+@import 'normalize.less';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
+
+body {
+  background-image: url('../images/cover.jpg');
+  background-size: cover;
+  background-position: bottom;
+  font-family: 'Open Sans', sans-serif;
+  .cover {
+    background-color: rgba(0, 0, 0, 50%);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    //flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    .title {
+      text-align: left;
+      letter-spacing: 4px;
+      font-weight: bolder;
+      color: white;
+      font-size: 30px;
+      line-height: 50px;
+      .btn {
+        font-family: 'Open Sans', sans-serif;
+        transition-duration: 1s;
+        text-transform: uppercase;
+        font-size: 15px;
+        width: 200px;
+        height: 40px;
+        cursor: pointer;
+        border: solid 3px white;
+        color: white;
+        background-color: rgba(0,0,0,0);
+        &:hover {
+          background-color: black;
+        }
+      }
+    }
+  }
+}
