@@ -1,5 +1,4 @@
 @import 'normalize.less';
-@import url('https://code.getmdl.io/1.2.1/material.indigo-pink.min.css');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
 
 .demo-layout-transparent {
@@ -7,7 +6,6 @@
   background: url('../images/cover.jpg') center / cover;
   background-size: cover;
   background-position: right bottom;
-
 }
 
 .demo-layout-transparent .mdl-layout__header,
@@ -16,6 +14,9 @@
      your background is light. */
   font-family: 'Open Sans', sans-serif;
   color: white;
+}
+.mdl-layout__header-row {
+  background-color: rgba(0, 0, 0, 50%);
 }
 
 body {
@@ -52,17 +53,22 @@ body {
       line-height: 50px;
     }
     .btn {
+      display: block;
       font-family: 'Open Sans', sans-serif;
       transition-duration: 1s;
+      text-align: center;
       text-transform: uppercase;
+      text-decoration: none;
       font-size: 15px;
       width: 100%;
       height: 40px;
+      line-height: 40px;
       cursor: pointer;
       border: solid 3px white;
       color: white;
       background-color: rgba(0,0,0,0);
       &:hover {
+        color: greenyellow;
         background-color: darkslateblue;
       }
     }
