@@ -1,41 +1,69 @@
 @import 'normalize.less';
+@import url('https://code.getmdl.io/1.2.1/material.indigo-pink.min.css');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
 
-body {
-  background-image: url('../images/cover.jpg');
-  background-size: cover;
-  background-position: bottom;
+.demo-layout-transparent {
   font-family: 'Open Sans', sans-serif;
+  background: url('../images/cover.jpg') center / cover;
+  background-size: cover;
+  background-position: right bottom;
+
+}
+
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+body {
+  //background-image: url('../images/cover.jpg');
   .cover {
+    //font-family: 'Open Sans', sans-serif;
     background-color: rgba(0, 0, 0, 50%);
     position: relative;
-    width: 100%;
     height: 100vh;
+    width: 100%;
     display: flex;
     //flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    .block {
+      padding: 50px;
+      box-sizing: border-box;
+      border: solid .5px white;
+    }
     .title {
-      text-align: left;
+      text-align: justify;
       letter-spacing: 4px;
       font-weight: bolder;
       color: white;
       font-size: 30px;
       line-height: 50px;
-      .btn {
-        font-family: 'Open Sans', sans-serif;
-        transition-duration: 1s;
-        text-transform: uppercase;
-        font-size: 15px;
-        width: 200px;
-        height: 40px;
-        cursor: pointer;
-        border: solid 3px white;
-        color: white;
-        background-color: rgba(0,0,0,0);
-        &:hover {
-          background-color: black;
-        }
+    }
+    .subtitle {
+      text-align: justify;
+      letter-spacing: 10px;
+      font-weight: 100;
+      color: white;
+      font-size: 30px;
+      line-height: 50px;
+    }
+    .btn {
+      font-family: 'Open Sans', sans-serif;
+      transition-duration: 1s;
+      text-transform: uppercase;
+      font-size: 15px;
+      width: 100%;
+      height: 40px;
+      cursor: pointer;
+      border: solid 3px white;
+      color: white;
+      background-color: rgba(0,0,0,0);
+      &:hover {
+        background-color: darkslateblue;
       }
     }
   }
